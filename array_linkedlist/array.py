@@ -1,32 +1,34 @@
 """
 数组
 """
-class Array:
-    def __init__(self,size):
-        self.array = [None]*size
-        self.size = size
 
 
-    def get_size(self):
-        return self.size
+def get_size(array):
+    return len(array)
 
-    def get_index(self,value):
-        pass
-    def insert(self,index,value):
-        pass
 
-    def delete(self,index):
-        pass
+def get_index(array, value):
+    pass
 
-    def get_value(self,index):
-        pass
+
+def insert(array, index, value):
+    pass
+
+
+def delete(array, index):
+    pass
+
+
+def get_value(array, index):
+    pass
 
 
 if __name__ == '__main__':
     # 初始化
-    a = Array(10)
+    a = [0] * 5
+    print(get_size(a))
     # 添加
     # 删除
     # 查找
     # 遍历
-    print(a.array)
+    print(a)

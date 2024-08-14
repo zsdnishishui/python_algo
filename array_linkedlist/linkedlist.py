@@ -2,32 +2,35 @@
 普通链表
 """
 
+
 class Node:
-    def __init__(self,value):
+    def __init__(self, value):
         self.value = value
         self.next = None
 
-class LinkedList:
-    def __init__(self):
-        self.size = 0
-        pass
+
+def get_size(node: Node):
+    pass
 
 
-    def get_size(self):
-        pass
-    def get_index(self,value):
-        pass
+def get_index(node: Node):
+    pass
 
-    def insert(self,index,value):
-        pass
 
-    def append(self,value):
-        pass
-    def delete(self,index):
-        pass
+def insert(nodeBefore: Node, nodeAfter: Node):
+    pass
 
-    def get_value(self,index):
-        pass
+
+def append(node: Node):
+    pass
+
+
+def delete(node: Node):
+    pass
+
+
+def get_value(node: Node, index):
+    pass
 
 
 if __name__ == '__main__':
