@@ -29,7 +29,7 @@ def pre_traverse(node: TreeNode):
 
 
 def mid_traverse(node: TreeNode):
-    '''深度优先搜索的前序遍历'''
+    '''深度优先搜索的中序遍历'''
     if node == None:
         return
 
@@ -39,7 +39,7 @@ def mid_traverse(node: TreeNode):
 
 
 def after_traverse(node: TreeNode):
-    '''深度优先搜索的前序遍历'''
+    '''深度优先搜索的后序遍历'''
     if node == None:
         return
 
